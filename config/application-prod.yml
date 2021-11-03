@@ -1,0 +1,20 @@
+
+log:
+  path: /home/gitlab-runner/automation/logs/package.log
+
+mdm_host: http://192.168.1.7:8080
+
+
+mysql:
+  host: 192.168.1.18
+  port: 3306
+  user: user
+  password: pwd
+  charset: utf8
+  db: db_name
+
+redis:
+  host: 192.168.1.46
+  port: 6379
+  password: drhcrQa9
+  db: 2

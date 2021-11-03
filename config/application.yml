@@ -1,0 +1,22 @@
+# scadaplus镜像保存路径
+profile:
+  dev
+
+log:
+  path: /tmp/logs/package.log
+
+mdm_host: http://10.0.2.40:8080
+
+mysql:
+  host: 10.0.2.18
+  port: 3306
+  user: user
+  password: pwd
+  charset: utf8
+  db: db_name
+
+redis:
+  host: 10.0.2.49
+  port: 6379
+  password: pwd
+  db: 2
