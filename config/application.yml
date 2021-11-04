@@ -1,6 +1,6 @@
 # scadaplus镜像保存路径
 profile:
-  dev
+  local-mac
 
 log:
   path: /tmp/logs/package.log
