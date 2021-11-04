@@ -6,6 +6,14 @@ import logging
 
 if __name__ == '__main__':
     logging.info('starting app...')
+    logging.info('app stared')
+
     logging.debug(f'loaded all config:{common},{app}')
     logging.info('executing app..')
-    logging.info('app stared')
+
+    try:
+        print(1 / 0)
+    except:
+        logging.exception('程序出现了异常')
+
+    logging.info('app ended')
